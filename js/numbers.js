@@ -42,8 +42,13 @@
         step4 += 2;
         step4 *= 2;
         step4 /= 4;
+        step4 %= 1;
         console.log(step4)
 
         /* STEP 5: Comparison Operators
         ===	(strict equality), !==	(strict-non-equality), == (equality), < (less than), > (greater than), <= (less than or equal to), >=	(greater than or equal to) */
+        let step5a = 5;
+        let step5b = 4;
 
+        let step5c = step5a !== step5b;
+        let step5d = step5a === step5b;
